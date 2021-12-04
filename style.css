@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#body {
+  font-family: "Roboto", sans-serif;
+  background-color: #04132e;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+}
+ul,
+li {
+  list-style: none;
+}
+header {
+  padding: 2rem;
+  min-height: 10vh;
+  text-align: center;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+.title-wrapper h1 {
+  margin: 0 1rem;
+}
+
+.buttons-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* CART LIST*/
+
+.total {
+  margin: 2rem;
+}
+
+.items-cart {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: rgba(86, 92, 215, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  max-height: 50vh;
+  overflow-y: auto;
+}
+.item-cart-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+.item-desc {
+  width: 40%;
+}
+
+.item-img {
+  width: 6rem;
+}
+
+.card-body {
+  color: #000;
+  background: rgba(180, 180, 180, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* MODAL */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  color: #000;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* BUY MODAL */
+.cart-list {
+  display: flex;
+  flex-wrap: wrap;
+}

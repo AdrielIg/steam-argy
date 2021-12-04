@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Dark Souls 3",
+        "price": 2500,
+        "img": "./assets/imgGames/dark-souls-3.jpg",
+        "key": 1,
+        "category": ["action", "RPG"]
+    },
+    {
+        "name": "FIFA 22",
+        "price": 2000,
+        "img": "./assets/imgGames/FIFA.jpg",
+        "key": 2,
+        "category": ["sports","soccer"]
+    },
+    {
+        "name": "Back 4 Blood",
+        "price": 2500,
+        "img": "./assets/imgGames/back-4-blood.jpg",
+        "key": 3,
+        "category": ["zombies", "action", "shooter"]
+    },
+    {
+        "name": "Anthem",
+        "price": 3000,
+        "img": "./assets/imgGames/anthem.jpg",
+        "key": 4,
+        "category": ["action", "RPG"]
+    },
+    {
+        "name": "Destiny 2",
+        "price": 3200,
+        "img": "./assets/imgGames/destiny.jpg",
+        "key": 5,
+        "category": ["RPG", "FPS", "MMO"]
+    },
+    {
+        "name": "Forza Horizon 4",
+        "price": 2000,
+        "img": "./assets/imgGames/Forza-Horizon-4.jpg",
+        "key": 6,
+        "category": ["cars", "sport"]
+    },
+    {
+        "name": "Ori",
+        "price": 2300,
+        "img": "./assets/imgGames/ori.jpg",
+        "key": 7,
+        "category": ["adventure", "plataform"]
+    },
+    {
+        "name": "Hades",
+        "price": 360,
+        "img": "./assets/imgGames/hades.jpg",
+        "key": 8,
+        "category": ["action","dungeon", "roguelike"]
+
+    },
+    {
+        "name": "Star Wars",
+        "price": 2800,
+        "img": "./assets/imgGames/star-wars.jpg",
+        "key": 9,
+        "category": [ "FPS"]
+    },
+    {
+        "name": "Skyrim",
+        "price": 2100,
+        "img": "./assets/imgGames/skyrim.jpg",
+        "key": 10,
+        "category": ["action", "RPG"]
+    },
+    {
+        "name": "GreedFall",
+        "price": 1900,
+        "img": "./assets/imgGames/greedfall.jpg",
+        "key": 11,
+        "category": ["action", "RPG"]
+    },
+    {
+        "name": "Nier Automata",
+        "price": 1600,
+        "img": "./assets/imgGames/nier.jpg",
+        "key": 12,
+        "category": ["action", "RPG"]
+    }
+]
